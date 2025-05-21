@@ -40,7 +40,7 @@ export default function Catalog({ cart, setCart }) {
 
 	return (
 		<div className={styles.catalog}>
-			<h2 className={styles.catalog__title}>Каталог товаров</h2>
+			<h2 className={styles.catalog__title}>Каталог Товаров</h2>
 
 			<Search handleChange={(e) => setFind(e.target.value)} />
 
