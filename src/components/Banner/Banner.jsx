@@ -1,4 +1,4 @@
-import img from "../../../public/Banner.png"
+import img from "../../assets/Banner.png"
 import styles from "./Banner.module.css"
 import BlueButton from "../BlueButton/BlueButton"
 export default function Banner() {

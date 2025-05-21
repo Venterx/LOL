@@ -1,7 +1,7 @@
 export const product = [
     {
         id: 0,
-        text: "Все тавары",
+        text: "Все товары",
         type: "btnBlue",
     },
     {
@@ -24,32 +24,37 @@ export const product = [
 export const products = [
     {
         id: 0,
-        name: 't1',
+        name: 'Товар1',
         price: 3434,
-        imagePath:'../public/item.png',
+        imagePath:'src/assets/item.png',
+        categoryId: 0,
     },
     {
         id: 1,
-        name: 't2',
+        name: 'Товар2',
         price: 34324,
-        imagePath:'../public/item.png',
+        imagePath:'src/assets/item.png',
+        categoryId: 0,
     },
     {
         id: 2,
-        name: 't3',
+        name: 'Товар3',
         price: 3433,
-        imagePath:'public/item.png',
+        imagePath:'src/assets/item.png',
+        categoryId: 0,
     },
     {
         id: 3,
-        name: 't4',
+        name: 'Товар4',
         price: 343334,
-        imagePath:'public/item.png',
+        imagePath:'src/assets/item.png',
+        categoryId: 0,
     },
     {
         id: 4,
-        name: 't5',
+        name: 'ТоварГойды',
         price: 3432334,
-        imagePath:'public/item.png',
+        imagePath:'src/assets/item.png',
+        categoryId: 1,
     },
 ]

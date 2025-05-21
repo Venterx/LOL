@@ -1,5 +1,5 @@
 import styles from "./BlueButton.module.css"
-export default function BlueButton({ value, type, text }) {
+export default function BlueButton({ value, type, text, onClick }) {
 	let btn = ""
 
 	switch (type) {
@@ -27,6 +27,8 @@ export default function BlueButton({ value, type, text }) {
 		default:
 			btn = ""
 	}
+
+	
 
 	return <button className={btn}>{value}{text}</button>
 }
